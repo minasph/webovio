@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+/*FONT FACE*/
+
+@font-face {
+    font-family: "Poppins";
+url(".../fonts/poppins-v15-latin-regular.woff2") format("woff2");
+url(".../fonts/poppins-v15-latin-regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+url(".../fonts/poppins-v15-latin-500.woff2") format("woff2");
+url(".../fonts/poppins-v15-latin-500.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Poppins";
+url(".../fonts/poppins-v15-latin-700.woff2") format("woff2");
+url(".../fonts/poppins-v15-latin-700.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero{
+    background: url("fonts/bg-hero.jpg"), no-repeat, center / cover;
+}
